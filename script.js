@@ -9,20 +9,20 @@ let fg = new Image(); // Создание объекта
 let pipeUp = new Image(); // Создание объекта
 let pipeBottom = new Image(); // Создание объекта
 
-bird.src = "img/bird.png"; // Указание нужного изображения
-bg.src = "img/bg.png"; // Аналогично
-fg.src = "img/fg.png"; // Аналогично
-pipeUp.src = "img/pipeUp.png"; // Аналогично
-pipeBottom.src = "img/pipeBottom.png"; // Аналогично
+bird.src = "bird.png"; // Указание нужного изображения
+bg.src = "bg.png"; // Аналогично
+fg.src = "fg.png"; // Аналогично
+pipeUp.src = "pipeUp.png"; // Аналогично
+pipeBottom.src = "pipeBottom.png"; // Аналогично
 
 // Звуковые файлы
 let fly = new Audio(); // Создание аудио объекта
 let score_audio = new Audio(); // Создание аудио объекта
 let screamer = new Audio();
 
-fly.src = "audio/fly.mp3"; // Указание нужной записи
-score_audio.src = "audio/score.mp3"; // Аналогично
-screamer.src = "audio/screamer.mp3";
+fly.src = "fly.mp3"; // Указание нужной записи
+score_audio.src = "score.mp3"; // Аналогично
+screamer.src = "screamer.mp3";
 
 let gap = 90;
 
